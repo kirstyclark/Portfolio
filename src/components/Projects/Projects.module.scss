@@ -1,0 +1,42 @@
+@import '../../assets/styles.scss';
+
+.projects {
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .projectsContainer {
+        border: $border;
+        height: 80%;
+        width: 85%;
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+
+        .projectsList {
+            border-right: $border;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+            .projectBox {
+                border-bottom: $border;
+                display: flex;
+                align-items: center;
+                padding-left: 2vw;
+
+                h5 {
+                    pointer-events: none
+                }
+            }
+
+            .projectBox:last-child {
+                border-bottom: none;
+            }  
+
+            .projectBox:hover {
+                background-color: $secondary-color;
+                color: $primary-color;
+                cursor: pointer;
+            } 
+        }
+    }
+}

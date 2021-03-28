@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+    .mainApp {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .navbar {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .logoContainer {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topbar {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .content {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .sidebar {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .main {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

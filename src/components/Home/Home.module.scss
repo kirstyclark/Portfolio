@@ -1,0 +1,9 @@
+@import '../../assets/styles.scss';
+
+.home {
+    height: 99vh;
+    scroll-snap-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

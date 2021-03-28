@@ -1,0 +1,93 @@
+@import '../../assets/styles.scss';
+
+.about {
+    align-items: flex-end;
+
+    .aboutContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            border-radius: 50%;
+            border: $border;
+        }
+
+        .aboutInfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                a {
+                    color: $highlight-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+   
+    
+    .aboutContainer {
+        height: 70%;
+        width: 75%;
+        margin-bottom: 7%;
+        
+        img {
+            height: 18vw;
+            margin: 20px;
+        }
+    
+        .aboutInfo {
+            width: 70%;
+            height: 80%;
+    
+            p {
+                margin-left: 20px;
+                margin-bottom: 20px;
+                height: 60%;
+            }
+            
+            .faBox {
+                margin-top: 20px;
+                .fa {
+                    height: 50px;
+                    width: 50px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .aboutContainer {
+        height: 80%;
+        flex-direction: column;
+    
+        img {
+            height: 100px;
+        }
+    
+        .aboutInfo {
+            width: 90%;
+    
+            p {
+                margin-bottom: 3vh;
+            }
+            
+            .faBox {
+                .fa {
+                    height: 30px;
+                    width: 30px;
+                    margin: 5px;
+                }
+            }
+        }    
+    }
+}

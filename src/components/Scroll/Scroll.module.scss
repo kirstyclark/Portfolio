@@ -1,0 +1,55 @@
+@import '../../assets/styles.scss';
+
+.navbarStyle {
+    border-top: $border;
+    border-bottom: $border;
+    background-color: $primary-color;
+    height: 7vh;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.topbarStyle {
+    border-bottom:  $border;
+    background-color: $primary-color;
+    height: 6vh;
+    scroll-snap-align: end;
+    z-index: 3;
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.topbarStyle:hover {
+    background-color: $secondary-color;
+    cursor: pointer;
+    color: $primary-color;
+}
+
+.projectsTop {
+    position: sticky;
+    top: 7.7vh;
+    scroll-snap-align: none;
+}
+
+.aboutTop {
+    position: sticky;
+    top: 14vh;
+}
+
+.skillsTop {
+    position: sticky;
+    top: 20.2vh;
+}
+
+.contactTop {
+    position: sticky;
+    top: 26.5vh;
+}
+
+@media screen and (min-width: 768px) {
+    .topbarStyle {
+        border-left: $border;
+    }
+}
