@@ -50,14 +50,14 @@
 @media screen and (min-width: 768px) {
 
     .contactContainer {
-        width: 75%;
+        width: 85%;
         margin-bottom: 3%;
        
         .contactDetails {
             width: 30%;
             margin-right: 20px;
             padding-right: 40px;
-            height: 45%;
+            height: 55%;
             border-right: $border;
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -79,12 +79,12 @@
             }
     
             label, input {
-                width: 80%;
+                width: 90%;
                 height: 4vh;
             }
     
             textarea {
-                width: 80%;
+                width: 90%;
                 height: 14vh;
             }
         }

@@ -15,6 +15,7 @@
         .projectsList {
             border-right: $border;
             display: grid;
+            max-height: 100%;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
             .projectBox {
@@ -37,6 +38,24 @@
                 color: $primary-color;
                 cursor: pointer;
             } 
+
+            .active {
+                background-color: $secondary-color;
+                color: $primary-color;
+                border-bottom: $border;
+                display: flex;
+                align-items: center;
+                padding-left: 2vw;
+                h5 {
+                    pointer-events: none
+                }
+            }
+        }
+
+        .contentContainer {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
         }
     }
 }

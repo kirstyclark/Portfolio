@@ -8,8 +8,10 @@
     }
 
     .textContainer {
-        font-size: clamp(6em, 14vw, 21vh);
-        line-height: clamp(8.5rem, 19vh, 19vh);
+        font-size: clamp(6em, 19vh, 13vw);
+        max-width: 3ch;
+        // line-height: clamp(8.5rem, 19vh, 19vh);
+        line-height: clamp(5rem, 18vh, 19vh);
         letter-spacing: 0.08em;
         word-break: break-all;
         padding-left: 1.5vw;

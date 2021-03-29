@@ -1,2 +1,42 @@
 @import '../../../assets/styles.scss';
 
+.projectContent {
+    max-height: 100%;
+    padding: 15px;
+
+    img {
+        max-height: 210px;
+    }
+
+    h2 {
+        font-size: $font-m;
+        margin-bottom: 10px;
+    }
+    ul {
+        display: flex;
+        padding-inline-start: 0;
+
+        li {
+            list-style-type: none;
+            border: $secondary-color 1px solid;
+            width: fit-content;
+            padding: 5px;
+            margin-right: 10px;
+        }
+    }
+
+    p {
+        // font-size: $font-xs;
+        margin: 5px 0 15px 0;
+    }
+
+    a {
+        background-color: $secondary-color;
+        color: $primary-color;
+        font-size: $font-xs;
+        padding: 5px 10px 5px 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+
+}
