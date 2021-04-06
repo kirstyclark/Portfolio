@@ -1,4 +1,5 @@
 import React from 'react';
+import { firestore } from '../../firebase.js';
 import SideBar from '../SideBar';
 import '../../assets/styles.scss';
 import styles from './Contact.module.scss';
@@ -7,6 +8,20 @@ import { faEnvelope, faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
+
+    const handleSubmit = (event) => {
+        console.log('helllllliiiiiooo')
+        event.preventDefault();
+        const response = {
+            name: event.target[0].value,
+            email: event.target[1].value,
+            message: event.target[2].value
+        }
+        console.log(response)
+
+        firestore.collection('submission').doc().set(response)
+    }
+
     return (
         <div className='content' id='contact' >
             <SideBar title='CONTACT' />
@@ -26,7 +41,7 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faFilePdf} className={styles.fa} />
                         </a>
                     </div>
-                    <form className={styles.contactForm}>
+                    <form className={styles.contactForm} onSubmit={handleSubmit}>
                         <h3>Get in touch!</h3>
                         <label>Name</label>
                         <input/>

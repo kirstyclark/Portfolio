@@ -16,12 +16,12 @@ const About = () => {
                     <img src={me}/>
                     <div className={styles.aboutInfo}>
                         <p>
-                        I am a Trainee Software Developer based in London. As well as a
-                        growing knowledge of technical skills, I am a confident content
-                        producer, who works well with people and in fast paced
-                        situations. I graduated from University of Oxford in 2019 with a
-                        2:1 Bachelors of Fine Art degree.
-                        {<br/>}
+                        I am a Trainee Software Developer based in London. <br/>
+                        As well as a growing knowledge of technical skills, I am a confident content
+                        producer, who works well with people and in fast paced situations.
+                        I graduated from University of Oxford in 2019 with a 2:1 Bachelors of Fine Art degree.
+                        <br/>
+                        <br/>
                         Click 
                         <a href='https://drive.google.com/file/d/13aKQQfxZLiyAspnlD1UW3etPwsiML_na/view?usp=sharing' target='_blank'> here </a>
                         to view my CV.
