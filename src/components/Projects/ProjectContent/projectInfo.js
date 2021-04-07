@@ -10,7 +10,7 @@ const projectInfo = [
         description: 
         'A site which lists a range of Brewdog beers, extracted from an API, then ordered',
         img: mouse,
-        githubPage: 'https://github.com/kirstyclark/brewdog',
+        githubPage: 'https://kirstyclark.github.io/brewdog/',
         code: 'https://github.com/kirstyclark/brewdog'
     },
     {
@@ -26,9 +26,12 @@ const projectInfo = [
         code: 'https://github.com/kirstyclark/kikis-site'
     },
     {
-        name: '',
+        name: 'KnoWaste',
         tools: [
-
+            'Agile',
+            'Firebase',
+            'React',
+            'Prototyping & Design'
         ],
         description: '',
         img: '',
@@ -36,9 +39,33 @@ const projectInfo = [
         code: ''
     },
     {
-        name: '',
+        name: 'Calculator',
         tools: [
-
+            'JavaScript',
+            'Testing',
+            'SCSS'
+        ],
+        description: '',
+        img: '',
+        githubPage: '',
+        code: ''
+    },
+    {
+        name: 'Noughts & Crosses',
+        tools: [
+            'JavaScript',
+            'SCSS'
+        ],
+        description: '',
+        img: '',
+        githubPage: '',
+        code: ''
+    },
+    {
+        name: 'Morse Code Translator',
+        tools: [
+            'Test Driven',
+            'JavaScript'
         ],
         description: '',
         img: '',

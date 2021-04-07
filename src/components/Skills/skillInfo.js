@@ -1,68 +1,78 @@
+import { faFire, faPencilRuler, faUsers, faCubes, faVial, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+import { faJs, faReact, faSass, faHtml5, faAngular, faNode } from '@fortawesome/free-brands-svg-icons';
+
 const skillInfo= [
     {
         name: 'React',
-        // icon: ,
-        projects: ['this', 'this']
+        icon: faReact,
+        link: 'example',
+        project: "Kiki's Site"
     },
     {
         name: 'JavaScript',
-        // icon: ,
-        projects: []
+        icon: faJs,
+        link: 'example',
+        project: 'API IPA OPA!'
     },
     {
         name: 'Firebase',
-        // icon: ,
-        projects: []
+        icon: faFire,
+        link: 'example',
+        project: 'KnoWaste'
     },
     {
         name: 'Node.js',
-        // icon: ,
-        projects: []
+        icon: faNode,
+        link: 'example',
+        project: 'TBC'
     },
     {
         name: 'Testing',
-        // icon: ,
-        projects: []
+        icon: faVial,
+        link: 'example',
+        project: 'Morse Translator'
     },
     {
         name: 'TypeScript',
-        // icon: ,
-        projects: []
+        icon: faQuoteRight,
+        link: 'example',
+        project: 'TBC'
     },
     {
         name: 'Angular',
-        // icon: ,
-        projects: []
+        icon: faAngular,
+        link: 'example',
+        project: 'TBC'
     },
     {
         name: 'Object Orientated',
-        // icon: ,
-        projects: []
+        icon: faCubes,
+        link: 'example',
+        project: 'Calculator'
     },
     {
         name: 'Agile',
-        // icon: ,
-        projects: []
-    },
-    {
-        name: 'Leadership',
-        // icon: ,
-        projects: []
+        icon: faUsers,
+        link: 'example',
+        project: 'KnoWaste'
     },
     {
         name: 'Prototyping & Design',
-        // icon: ,
-        projects: []
+        icon: faPencilRuler,
+        link: 'example',
+        project: "Kiki's Sounds"
     },
     {
         name: 'HTML',
-        // icon: ,
-        projects: []
+        icon: faHtml5,
+        link: 'example',
+        project: 'Portfolio (first version)'
     },
     {
         name: 'SCSS',
-        // icon: ,
-        projects: []
+        icon: faSass,
+        link: 'example',
+        project: 'Cosmic Noughts & Crosses'
     }
 ]
 

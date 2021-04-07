@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SideBar from '../SideBar';
+import SkillTile from './SkillTile/SkillTile.jsx';
 import styles from './Skills.module.scss';
-import '../../assets/styles.scss';
 import skillInfo from './skillInfo.js';
 
 const Skills = () => {
@@ -13,16 +13,7 @@ const Skills = () => {
                 <div className={styles.skillsContainer}>
                     {
                         skillInfo.map(skill => {
-                            return (
-                            <div className={styles.skillCard}>
-                                <h5>{skill.name}</h5>
-                                <ul>
-                                    {skill.projects.map(project => {
-                                        return <li>{project}</li>
-                                    })}
-                                </ul>
-                            </div>
-                            )
+                            return <SkillTile name={skill.name} link={skill.link} icon={skill.icon} project={skill.project}/>
                         })
                     }
                 </div>

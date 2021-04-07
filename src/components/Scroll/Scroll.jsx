@@ -7,11 +7,7 @@ import styles from './Scroll.module.scss';
 
 const Scroll = () => {
 
-    const [current, setCurrent] = useState(false);
-
     const [logo, setLogo] = useState('KC');
-    //if the next top bar is visible, change the styling of the current top bar to white
-
 
     return (
         <div className='mainApp'>

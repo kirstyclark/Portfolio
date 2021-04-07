@@ -10,7 +10,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
 
     const handleSubmit = (event) => {
-        console.log('helllllliiiiiooo')
         event.preventDefault();
         const response = {
             name: event.target[0].value,
@@ -19,7 +18,7 @@ const Contact = () => {
         }
         console.log(response)
 
-        firestore.collection('submission').doc().set(response)
+        firestore.collection('submission').doc().set(response);
     }
 
     return (

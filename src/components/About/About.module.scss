@@ -24,6 +24,10 @@
                     color: $highlight-color;
                 }
             }
+
+            .fa:hover {
+                color: $highlight-color;
+            }
         }
     }
 }

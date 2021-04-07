@@ -37,4 +37,8 @@
             margin: 2vh;
         }
     }
+
+    .scrollContainer:hover {
+        color: $highlight-color;
+    }
 }
