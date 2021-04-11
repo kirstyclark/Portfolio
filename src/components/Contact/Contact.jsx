@@ -1,5 +1,5 @@
 import React from 'react';
-import { firestore } from '../../firebase.js';
+// import { firestore } from '../../firebase.js';
 import SideBar from '../SideBar';
 import '../../assets/styles.scss';
 import styles from './Contact.module.scss';
@@ -18,7 +18,7 @@ const Contact = () => {
         }
         console.log(response)
 
-        firestore.collection('submission').doc().set(response);
+        // firestore.collection('submission').doc().set(response);
     }
 
     return (

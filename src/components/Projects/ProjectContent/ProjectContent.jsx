@@ -25,7 +25,7 @@ const ProjectContent = (props) => {
 
     return (
         <div className={styles.projectContent}>
-            <img src={projectExpand.img}/>
+            <video src={projectExpand.img} autoplay="true"></video>
             <h2>{projectExpand.name}</h2>
             <ul>
                 {projectExpand.tools.map(tool => <li>{tool}</li>)}

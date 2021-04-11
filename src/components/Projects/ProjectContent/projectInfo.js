@@ -1,4 +1,6 @@
-import mouse from '../../../assets/images/mouse.webp';
+// import brewdog from '../../../assets/videos/brewdog.mov';
+// import calc from '../../../assets/videos/calc.mov';
+import morse from '../../../assets/videos/morse.mov';
 
 const projectInfo = [
     {
@@ -8,8 +10,8 @@ const projectInfo = [
             'SCSS'
         ],
         description: 
-        'A site which lists a range of Brewdog beers, extracted from an API, then ordered',
-        img: mouse,
+        'A frontend site for the Punk API, fetching the beers and then offering a range of filtering and sorting methods.',
+        // img: brewdog,
         githubPage: 'https://kirstyclark.github.io/brewdog/',
         code: 'https://github.com/kirstyclark/brewdog'
     },
@@ -21,7 +23,7 @@ const projectInfo = [
             'SCSS'
         ],
         description: 'Interactive site showing my radio content and top twenty lists',
-        img: mouse,
+        // img: brewdog,
         githubPage: 'https://github.com/kirstyclark/kikis-site',
         code: 'https://github.com/kirstyclark/kikis-site'
     },
@@ -33,7 +35,7 @@ const projectInfo = [
             'React',
             'Prototyping & Design'
         ],
-        description: '',
+        description: "4 week client project for KnoWaste sustainable startup, during which I PM'd the 2nd week sprint.",
         img: '',
         githubPage: '',
         code: ''
@@ -45,10 +47,10 @@ const projectInfo = [
             'Testing',
             'SCSS'
         ],
-        description: '',
-        img: '',
-        githubPage: '',
-        code: ''
+        description: "A simple calculator with 'ans' and 'ac' functionality and a dynamic background.",
+        // img: calc,
+        githubPage: 'https://github.com/kirstyclark/calculator',
+        code: 'https://github.com/kirstyclark/calculator'
     },
     {
         name: 'Noughts & Crosses',
@@ -67,10 +69,10 @@ const projectInfo = [
             'Test Driven',
             'JavaScript'
         ],
-        description: '',
-        img: '',
-        githubPage: '',
-        code: ''
+        description: 'Created using test-driven development, this translator translates english text to morse or vice versa with an audio output.',
+        img: morse,
+        githubPage: 'https://github.com/kirstyclark/morseTranslator',
+        code: 'https://kirstyclark.github.io/morseTranslator/'
     }
 ]
 
