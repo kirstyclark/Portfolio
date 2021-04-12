@@ -1,5 +1,5 @@
-// import brewdog from '../../../assets/videos/brewdog.mov';
-// import calc from '../../../assets/videos/calc.mov';
+import brewdog from '../../../assets/videos/brewdog.mov';
+import calc from '../../../assets/videos/calc.mov';
 import morse from '../../../assets/videos/morse.mov';
 
 const projectInfo = [
@@ -11,7 +11,7 @@ const projectInfo = [
         ],
         description: 
         'A frontend site for the Punk API, fetching the beers and then offering a range of filtering and sorting methods.',
-        // img: brewdog,
+        img: brewdog,
         githubPage: 'https://kirstyclark.github.io/brewdog/',
         code: 'https://github.com/kirstyclark/brewdog'
     },
@@ -23,7 +23,7 @@ const projectInfo = [
             'SCSS'
         ],
         description: 'Interactive site showing my radio content and top twenty lists',
-        // img: brewdog,
+        img: brewdog,
         githubPage: 'https://github.com/kirstyclark/kikis-site',
         code: 'https://github.com/kirstyclark/kikis-site'
     },
@@ -48,7 +48,7 @@ const projectInfo = [
             'SCSS'
         ],
         description: "A simple calculator with 'ans' and 'ac' functionality and a dynamic background.",
-        // img: calc,
+        img: calc,
         githubPage: 'https://github.com/kirstyclark/calculator',
         code: 'https://github.com/kirstyclark/calculator'
     },

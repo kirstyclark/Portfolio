@@ -5,24 +5,26 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+var _brewdog = _interopRequireDefault(require("../../../assets/videos/brewdog.mov"));
+
+var _calc = _interopRequireDefault(require("../../../assets/videos/calc.mov"));
+
 var _morse = _interopRequireDefault(require("../../../assets/videos/morse.mov"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import brewdog from '../../../assets/videos/brewdog.mov';
-// import calc from '../../../assets/videos/calc.mov';
 var projectInfo = [{
   name: 'IPA API',
   tools: ['React', 'SCSS'],
   description: 'A frontend site for the Punk API, fetching the beers and then offering a range of filtering and sorting methods.',
-  // img: brewdog,
+  img: _brewdog.default,
   githubPage: 'https://kirstyclark.github.io/brewdog/',
   code: 'https://github.com/kirstyclark/brewdog'
 }, {
   name: "Kiki's Sounds",
   tools: ['Firebase', 'React', 'SCSS'],
   description: 'Interactive site showing my radio content and top twenty lists',
-  // img: brewdog,
+  img: _brewdog.default,
   githubPage: 'https://github.com/kirstyclark/kikis-site',
   code: 'https://github.com/kirstyclark/kikis-site'
 }, {
@@ -36,7 +38,7 @@ var projectInfo = [{
   name: 'Calculator',
   tools: ['JavaScript', 'Testing', 'SCSS'],
   description: "A simple calculator with 'ans' and 'ac' functionality and a dynamic background.",
-  // img: calc,
+  img: _calc.default,
   githubPage: 'https://github.com/kirstyclark/calculator',
   code: 'https://github.com/kirstyclark/calculator'
 }, {
