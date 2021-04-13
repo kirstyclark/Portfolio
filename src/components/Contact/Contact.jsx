@@ -1,5 +1,5 @@
 import React from 'react';
-// import { firestore } from '../../firebase.js';
+import emailjs from 'emailjs-com';
 import SideBar from '../SideBar';
 import '../../assets/styles.scss';
 import styles from './Contact.module.scss';
@@ -8,17 +8,16 @@ import { faEnvelope, faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
-
-    const handleSubmit = (event) => {
+    
+    const sendEmail = (event) => {
         event.preventDefault();
-        const response = {
-            name: event.target[0].value,
-            email: event.target[1].value,
-            message: event.target[2].value
-        }
-        console.log(response)
-
-        // firestore.collection('submission').doc().set(response);
+        emailjs.sendForm('gmail', 'service_etwfaml', e.target, 'user_R4rZYB0FdGhBBa4xQFSQ0')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        event.target.reset();
     }
 
     return (
@@ -40,14 +39,14 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faFilePdf} className={styles.fa} />
                         </a>
                     </div>
-                    <form className={`contactForm ${styles.contactForm}`} onSubmit={handleSubmit}>
+                    <form className={`contactForm ${styles.contactForm}`} onSubmit={sendEmail}>
                         <h3>Get in touch!</h3>
                         <label>Name</label>
-                        <input/>
+                        <input type="text" name="name"/>
                         <label>Email</label>
-                        <input/>
+                        <input type="email" name="email"/>
                         <label>Message</label>
-                        <textarea/>
+                        <textarea name="message" />
                         <button type='submit'>Submit</button>
                     </form>
                 </div>
