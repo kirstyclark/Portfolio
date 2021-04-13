@@ -1,6 +1,7 @@
-// import brewdog from '../../../assets/videos/brewdog.mov';
-// import calc from '../../../assets/videos/calc.mov';
-// import morse from '../../../assets/videos/morse.mov';
+import brewdog from '../../../assets/videos/brewdog.mov';
+import calc from '../../../assets/videos/calc.mov';
+import morse from '../../../assets/videos/morse.mov';
+import kiki from '../../../assets/videos/kikissite.mov';
 
 const projectInfo = [
     {
@@ -11,7 +12,7 @@ const projectInfo = [
         ],
         description: 
         'A frontend site for the Punk API, fetching the beers and then offering a range of filtering and sorting methods.',
-        // img: brewdog,
+        img: brewdog,
         githubPage: 'https://kirstyclark.github.io/brewdog/',
         code: 'https://github.com/kirstyclark/brewdog'
     },
@@ -23,7 +24,7 @@ const projectInfo = [
             'SCSS'
         ],
         description: 'Interactive site showing my radio content and top twenty lists',
-        // img: brewdog,
+        img: kiki,
         githubPage: 'https://github.com/kirstyclark/kikis-site',
         code: 'https://github.com/kirstyclark/kikis-site'
     },
@@ -36,7 +37,7 @@ const projectInfo = [
             'Prototyping & Design'
         ],
         description: "4 week client project for KnoWaste sustainable startup, during which I PM'd the 2nd week sprint.",
-        // img: '',
+        img: calc,
         githubPage: '',
         code: ''
     },
@@ -48,7 +49,7 @@ const projectInfo = [
             'SCSS'
         ],
         description: "A simple calculator with 'ans' and 'ac' functionality and a dynamic background.",
-        // img: calc,
+        img: calc,
         githubPage: 'https://github.com/kirstyclark/calculator',
         code: 'https://github.com/kirstyclark/calculator'
     },
@@ -70,7 +71,7 @@ const projectInfo = [
             'JavaScript'
         ],
         description: 'Created using test-driven development, this translator translates english text to morse or vice versa with an audio output.',
-        // img: morse,
+        img: morse,
         githubPage: 'https://github.com/kirstyclark/morseTranslator',
         code: 'https://kirstyclark.github.io/morseTranslator/'
     }
