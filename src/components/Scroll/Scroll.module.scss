@@ -14,7 +14,6 @@
     border-bottom:  $border;
     background-color: $primary-color;
     height: 6vh;
-    scroll-snap-align: end;
     z-index: 3;
     padding-left: 8%;
     display: flex;
@@ -40,16 +39,19 @@
 
 .skillsTop {
     position: sticky;
-    top: 20.2vh;
+    top: 20.3vh;
 }
 
 .contactTop {
     position: sticky;
-    top: 26.5vh;
+    top: 26.6vh;
 }
 
 @media screen and (min-width: 768px) {
+
     .topbarStyle {
         border-left: $border;
+        scroll-snap-align: end;
     }
 }
+

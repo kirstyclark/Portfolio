@@ -8,24 +8,6 @@
     align-items: center;
     display: grid;
 
-    .homeContainer {
-        display: flex;
-        width: 60vw;
-        margin-top: auto;
-
-        img {
-            height: 50vh;
-        }
-
-        .homeText {
-            font-size: $font-m;
-            width: 50vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-
     .scrollContainer {
         display: flex;
         flex-direction: column;
@@ -40,5 +22,48 @@
 
     .scrollContainer:hover {
         color: $highlight-color;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .homeContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: auto;
+        
+        .homeText {
+            font-size: $font-m;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 45vh;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .homeContainer {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+        .homeText {
+            font-size: $font-s;
+            width: 90%;
+            h2 {
+                width: 80%;
+            }
+        }
+    }
+
+    img {
+        height: 30vh;
+        transform: rotateY(180deg);
     }
 }

@@ -12,6 +12,7 @@
     background-color: $primary-color;
     color: $secondary-color;
     border: $border;
+    // overflow-x: hidden;
 }
 
 body {
@@ -29,9 +30,9 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: $secondary-color;
-
-}
+}   
 
 ::-webkit-scrollbar-thumb:hover {
     background: $highlight-color;
 }
+

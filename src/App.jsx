@@ -4,7 +4,7 @@ import Scroll from './components/Scroll';
 
 const App = () => {
   return (
-    <div className='app' className={styles.app}>
+    <div className={`app ${styles.app}`}>
       <Home />
       <Scroll /> 
     </div>

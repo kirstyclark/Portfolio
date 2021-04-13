@@ -17,7 +17,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
 
             p {
                 a {
@@ -70,11 +70,12 @@
 @media screen and (max-width: 767px) {
     
     .aboutContainer {
-        height: 80%;
         flex-direction: column;
+        margin: 4vh 0;
     
         img {
             height: 100px;
+            margin: 2vh;
         }
     
         .aboutInfo {

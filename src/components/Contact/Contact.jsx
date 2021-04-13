@@ -40,7 +40,7 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faFilePdf} className={styles.fa} />
                         </a>
                     </div>
-                    <form className={styles.contactForm} onSubmit={handleSubmit}>
+                    <form className={`contactForm ${styles.contactForm}`} onSubmit={handleSubmit}>
                         <h3>Get in touch!</h3>
                         <label>Name</label>
                         <input/>

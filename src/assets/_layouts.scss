@@ -43,6 +43,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .mainApp {
+        height: 100%;
+    }
+
     .navbar {
         display: flex;
         justify-content: center;

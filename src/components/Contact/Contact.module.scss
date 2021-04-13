@@ -106,6 +106,7 @@
     .contactContainer {
         width: 100%;
         flex-direction: column-reverse;
+        margin: 10vh 3vh;
 
         .contactDetails {
             .fa {
@@ -118,6 +119,7 @@
 
         .contactForm {
             margin-bottom: 25px;
+            font-size: $font-xxs;
     
             button {
                 width: 70%;
