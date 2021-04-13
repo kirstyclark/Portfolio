@@ -2,6 +2,24 @@
 
 .projects {
     align-items: center;
+
+    .projectBox:hover {
+        background-color: $secondary-color;
+        color: $primary-color;
+        cursor: pointer;
+    } 
+
+    .active {
+        background-color: $secondary-color;
+        color: $primary-color;
+        border-bottom: $border;
+        display: flex;
+        align-items: center;
+        padding-left: 2vw;
+        h5 {
+            pointer-events: none
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -32,30 +50,31 @@
             .projectBox:last-child {
                 border-bottom: none;
             }  
-
-            .projectBox:hover {
-                background-color: $secondary-color;
-                color: $primary-color;
-                cursor: pointer;
-            } 
-
-            .active {
-                background-color: $secondary-color;
-                color: $primary-color;
-                border-bottom: $border;
-                display: flex;
-                align-items: center;
-                padding-left: 2vw;
-                h5 {
-                    pointer-events: none
-                }
-            }
         }
 
         .contentContainer {
             grid-column-start: 2;
             grid-column-end: 3;
             height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projectsList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .projectBox {
+            border-bottom: $border;
+            border-right: $border;
+            display: flex;
+            align-items: center;
+            padding: 2vw;
+
+            h5 {
+                pointer-events: none
+            }
         }
     }
 }

@@ -5,7 +5,7 @@ import kiki from '../../../assets/videos/kikissite.mov';
 
 const projectInfo = [
     {
-        name: 'IPA API',
+        name: 'API IPA OPA!',
         tools: [
             'React',
             'SCSS'
@@ -23,7 +23,7 @@ const projectInfo = [
             'React',
             'SCSS'
         ],
-        description: 'Interactive site showing my radio content and top twenty lists',
+        description: 'An ongoing personal project presenting my radio content, top twenty lists and archived artworks.',
         img: kiki,
         githubPage: 'https://github.com/kirstyclark/kikis-site',
         code: 'https://github.com/kirstyclark/kikis-site'
@@ -37,9 +37,9 @@ const projectInfo = [
             'Prototyping & Design'
         ],
         description: "4 week client project for KnoWaste sustainable startup, during which I PM'd the 2nd week sprint.",
-        img: calc,
-        githubPage: '',
-        code: ''
+        // img: '',
+        githubPage: 'https://github.com/kirstyclark/kikis-site',
+        code: 'https://github.com/kirstyclark/kikis-site'
     },
     {
         name: 'Calculator',
@@ -54,15 +54,15 @@ const projectInfo = [
         code: 'https://github.com/kirstyclark/calculator'
     },
     {
-        name: 'Noughts & Crosses',
+        name: 'Cosmis Noughts & Crosses',
         tools: [
             'JavaScript',
             'SCSS'
         ],
-        description: '',
+        description: 'A cosmic game made using HTML and SCSS, zooming out from the smallest things in the universe to the largest.',
         // img: '',
-        githubPage: '',
-        code: ''
+        githubPage: 'https://github.com/kirstyclark/',
+        code: 'https://github.com/kirstyclark/'
     },
     {
         name: 'Morse Code Translator',

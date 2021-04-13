@@ -2,7 +2,6 @@
 
 .home {
     height: 99vh;
-    scroll-snap-align: end;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +25,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .home {
+        scroll-snap-align: end;
+    }
 
     .homeContainer {
         display: grid;

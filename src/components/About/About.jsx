@@ -23,7 +23,7 @@ const About = () => {
                         <br/>
                         <br/>
                         Click 
-                        <a href='https://drive.google.com/file/d/13aKQQfxZLiyAspnlD1UW3etPwsiML_na/view?usp=sharing' target='_blank'> here </a>
+                        <a href='https://drive.google.com/file/d/1-ksSsGhA2aRZFoPKaPimnnMk9zq7HeMh/view?usp=sharing' target='_blank'> here </a>
                         to view my CV.
                         </p>
                         <div className={styles.faBox}>

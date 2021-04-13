@@ -5,73 +5,73 @@ const skillInfo= [
     {
         name: 'React',
         icon: faReact,
-        link: 'example',
+        link: 'https://github.com/kirstyclark/kikis-site',
         project: "Kiki's Site"
     },
     {
         name: 'JavaScript',
         icon: faJs,
-        link: 'example',
+        link: 'https://github.com/kirstyclark/brewdog',
         project: 'API IPA OPA!'
     },
     {
         name: 'Firebase',
         icon: faFire,
-        link: 'example',
-        project: 'KnoWaste'
+        link: 'https://github.com/kirstyclark/',
+        project: 'KnoWaste (TBC)'
     },
     {
         name: 'Node.js',
         icon: faNode,
-        link: 'example',
-        project: 'TBC'
+        link: 'https://github.com/kirstyclark/',
+        project: 'TarotBot (TBC)'
     },
     {
         name: 'Testing',
         icon: faVial,
-        link: 'example',
+        link: 'https://kirstyclark.github.io/morseTranslator/',
         project: 'Morse Translator'
     },
     {
         name: 'TypeScript',
         icon: faQuoteRight,
-        link: 'example',
-        project: 'TBC'
+        link: 'https://github.com/kirstyclark/',
+        project: 'TarotBot (TBC)'
     },
     {
         name: 'Angular',
         icon: faAngular,
-        link: 'example',
-        project: 'TBC'
+        link: 'https://github.com/kirstyclark/',
+        project: 'TarotBot (TBC)'
     },
     {
         name: 'Object Orientated',
         icon: faCubes,
-        link: 'example',
+        link: 'https://github.com/kirstyclark/calculator',
         project: 'Calculator'
     },
     {
         name: 'Agile',
         icon: faUsers,
-        link: 'example',
-        project: 'KnoWaste'
+        link: 'https://github.com/kirstyclark/',
+        project: 'KnoWaste (TBC)'
     },
     {
         name: 'Prototyping & Design',
         icon: faPencilRuler,
-        link: 'example',
+        link: 'https://github.com/kirstyclark/kikis-site',
         project: "Kiki's Sounds"
     },
     {
         name: 'HTML',
         icon: faHtml5,
-        link: 'example',
-        project: 'Portfolio (first version)'
+        link: 'https://github.com/kirstyclark/Cosmic-Noughts-Crosses',
+        project: 'Cosmic Noughts & Crosses'
     },
     {
         name: 'SCSS',
         icon: faSass,
-        link: 'example',
+        link: 'https://github.com/kirstyclark/Cosmic-Noughts-Crosses',
         project: 'Cosmic Noughts & Crosses'
     }
 ]
